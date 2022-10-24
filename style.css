@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    background-color: aqua;
+    min-height: 50px;
+    border: 1px solid white;
+    line-height: 50px;
+    text-align: center;
+}
+
+.col-6.row {
+    padding: 10px;
+}
+
+.col-6.row [class*="col-"] {
+    background-color: greenyellow;
+    border: 1px solid aqua;
+    height: 100%;
+}
